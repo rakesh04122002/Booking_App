@@ -1,0 +1,80 @@
+/* Main container styling */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #A6C5DA,white);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form wrapper */
+.signup-form {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form inputs */
+.signup-form input {
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.signup-form input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+/* Button styling */
+.signup-form button {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #357ab7;
+}
+
+/* Form heading */
+.signup-container  {
+  color: #333;
+  margin-bottom: 20px;
+}
+.toggle-text {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #444;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 0;
+}
+
+.toggle-button:hover {
+  text-decoration: underline;
+}

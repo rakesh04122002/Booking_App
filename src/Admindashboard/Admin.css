@@ -1,0 +1,105 @@
+/* Admin.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+.signup-container,
+.dashboard-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h1,
+.dashboard-container h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.signup-container h2,
+.dashboard-container h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.signup-form input,
+.signup-form select,
+.signup-form button {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.signup-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+
+.toggle-text {
+  text-align: center;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.toggle-button:hover {
+  color: #0056b3;
+}
+
+.dashboard-container button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dashboard-container button:hover {
+  background-color: #c82333;
+}
+
+.appointment-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.appointment-list li {
+  background: #f1f5fb;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 12px;
+}
+
+.appointment-list li strong {
+  color: #333;
+}
